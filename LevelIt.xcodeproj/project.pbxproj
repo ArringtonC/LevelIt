@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C589B5741B2E1A070081DCF5 /* LevelIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C589B5721B2E1A070081DCF5 /* LevelIt.xcdatamodeld */; };
 		C5CDAC2C1B186C62001FE4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CDAC2B1B186C62001FE4A4 /* AppDelegate.swift */; };
 		C5CDAC2E1B186C62001FE4A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5CDAC2D1B186C62001FE4A4 /* ViewController.swift */; };
 		C5CDAC311B186C62001FE4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5CDAC2F1B186C62001FE4A4 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C589B5731B2E1A070081DCF5 /* LevelIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LevelIt.xcdatamodel; sourceTree = "<group>"; };
 		C5CDAC261B186C62001FE4A4 /* LevelIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LevelIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5CDAC2A1B186C62001FE4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5CDAC2B1B186C62001FE4A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 				C5CDAC2B1B186C62001FE4A4 /* AppDelegate.swift */,
 				C5CDAC2D1B186C62001FE4A4 /* ViewController.swift */,
 				C5CDAC2F1B186C62001FE4A4 /* Main.storyboard */,
+				C589B5721B2E1A070081DCF5 /* LevelIt.xcdatamodeld */,
 				C5CDAC321B186C62001FE4A4 /* Images.xcassets */,
 				C5CDAC341B186C62001FE4A4 /* LaunchScreen.xib */,
 				C5CDAC291B186C62001FE4A4 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5CDAC2E1B186C62001FE4A4 /* ViewController.swift in Sources */,
+				C589B5741B2E1A070081DCF5 /* LevelIt.xcdatamodeld in Sources */,
 				C5CDAC2C1B186C62001FE4A4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +413,7 @@
 				C5CDAC471B186C62001FE4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5CDAC481B186C62001FE4A4 /* Build configuration list for PBXNativeTarget "LevelItTests" */ = {
 			isa = XCConfigurationList;
@@ -417,8 +422,22 @@
 				C5CDAC4A1B186C62001FE4A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C589B5721B2E1A070081DCF5 /* LevelIt.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C589B5731B2E1A070081DCF5 /* LevelIt.xcdatamodel */,
+			);
+			currentVersion = C589B5731B2E1A070081DCF5 /* LevelIt.xcdatamodel */;
+			path = LevelIt.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C5CDAC1E1B186C62001FE4A4 /* Project object */;
 }
